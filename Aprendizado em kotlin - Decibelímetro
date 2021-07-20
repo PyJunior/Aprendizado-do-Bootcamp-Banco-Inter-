@@ -7,7 +7,7 @@ DETERMINADO RUÍDO.
 
 fun main () {
    println("Bem vindo prevencionista , aqui você descobre se seu ambiente de trabalho está salubre contra ruido")
-   val decibel = (50..115).random()
+   val decibel = (50..150).random()
    println(decibel)
    if (decibel<85)
    println("O ambiente no qual se encontra está em condições de ruído, salubre.")
